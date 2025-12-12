@@ -3,7 +3,35 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## v1.2.0 - 15-01-2024 - Burgundy Piglet
+## v1.2.1 - 11-12-2025 - Lemon Fry
+
+This patch release bumps the required Nextflow version to `>=25.04.0`.
+
+### `Added`
+
+- [#36](https://github.com/qbic-pipelines/vcftomaf/pull/36) - Swap pipeline tests to nf-test (@famosab)
+
+### `Fixed`
+
+- [#34](https://github.com/qbic-pipelines/vcftomaf/pull/34) - Update vcf2maf configuration to adhere to hg38 as reference genome (@famosab)
+- [#35](https://github.com/qbic-pipelines/vcftomaf/pull/35) - Template update to 3.2.0 (@famosab)
+- [#37](https://github.com/qbic-pipelines/vcftomaf/pull/37) - Template update to 3.2.1 (@famosab)
+- [#38](https://github.com/qbic-pipelines/vcftomaf/pull/38) - Template update to 3.5.1 (@famosab)
+- [#39](https://github.com/qbic-pipelines/vcftomaf/pull/39) - Update all modules (@famosab)
+
+### `Dependencies`
+
+| Dependency.    | Old version | New version |
+| -------------- | ----------- | ----------- |
+| BCFtools       | 1.20        | 1.22        |
+| Gunzip         | 1.1         | 1.13        |
+| MultiQC        | 1.25.1      | 1.33        |
+| Picard         | 3.3.0       | 3.4.0       |
+| Tabix (HTSlib) | 1.20        | 1.21        |
+
+### `Deprecated`
+
+## v1.2.0 - 15-01-2025 - Burgundy Piglet
 
 ### `Added`
 
